@@ -1,0 +1,11 @@
+car_id,brand,model,year,price,car_age
+1,Toyota,Corolla,2020,18000,5
+2,Honda,Civic,2019,19000,6
+3,Ford,Mustang,2021,35000,4
+4,Chevrolet,Malibu,2018,17000,7
+5,BMW,3Series,2022,42000,3
+6,Audi,A4,2021,40000,4
+7,Mercedes,C-Class,2020,45000,5
+8,Hyundai,Elantra,2019,16000,6
+9,Kia,Optima,2020,17500,5
+10,Tesla,Model3,2022,48000,3
