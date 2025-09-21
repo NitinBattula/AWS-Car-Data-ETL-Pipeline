@@ -1,0 +1,13 @@
+CREATE TABLE cars_data (
+    Car_ID INT,
+    Brand VARCHAR(50),
+    Model VARCHAR(50),
+    Year INT,
+    Price DECIMAL(10,2),
+    Car_Age INT
+);
+
+COPY cars_data
+FROM 's3://nitincarsetl/carsinputdata/cars_raw.csv'
+IAM_ROLE 'arn:aws:iam::905402957331:role/redshiftfortest'
+FORMAT AS CSV;
