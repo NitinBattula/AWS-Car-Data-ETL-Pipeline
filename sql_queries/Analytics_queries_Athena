@@ -1,0 +1,14 @@
+-- Average price of cars
+SELECT AVG(Price) AS avg_price FROM cars_data;
+
+-- Top 3 most expensive cars
+SELECT Brand, Model, Price 
+FROM cars_data
+ORDER BY Price DESC 
+LIMIT 3;
+
+-- Cars older than 5 years
+SELECT Brand, Model, Year, Car_Age 
+FROM cars_data
+WHERE Car_Age > 5;
+
